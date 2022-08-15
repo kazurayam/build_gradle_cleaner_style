@@ -23,8 +23,6 @@ test {
     useJUnitPlatform()
 }
 
-task myTask {
-    doLast {
-        println 'my task'
-    }
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }

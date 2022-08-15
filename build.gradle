@@ -30,9 +30,8 @@ test {
     useJUnitPlatform()
 }
 
-// これはくどいなあ。originalの方がいい。
-task(myTask, {
-    doLast({
-        println("my task")
-    })
-})
+tasks.create("clean2") {
+    doLast {
+        delete(rootProject.buildDir)
+    }
+}
