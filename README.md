@@ -1,4 +1,6 @@
-# build.gradleをDSLっぽくなくKotlinスクリプトトっぽくしかしGradleで書くには
+# Cleaner style of build.gradle in Groovy
+
+build.gradleをDSLっぽくなくKotlinスクリプトっぽく書きたい、しかしGroovyで。
 
 ## 解決したい問題
 
